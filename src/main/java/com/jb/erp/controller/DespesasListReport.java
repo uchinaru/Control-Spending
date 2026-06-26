@@ -53,6 +53,7 @@ public class DespesasListReport extends FormAbstract implements Serializable{
 	@PostConstruct
 	public void init() {
 		loadPageWhifUserLogged();
+		listarDespesas();
 	}
 	
 	public boolean validade() {
